@@ -21,6 +21,15 @@ export const AccentPoint = styled.h3`
   font-weight: bold;
 `;
 
+
+export const AccentPoint2 = styled.h3`
+  margin: 0px;
+  text-align: center;
+  padding: 0px 0px 25px 0px;
+  font-family: "GeosansLight", sans-serif;
+  vertical-align: middle;
+`;
+
 export const SpacerImage = styled.p`
   text-align: center;
   margin: 20px 0px 20px 0px;
@@ -62,6 +71,9 @@ const About = () => {
         <Col lg={12} md={12} sm={12}>
           <AccentPoint id="properties">Featured Home</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
+          <AccentPoint2>
+            This Spunproperty sold in 24 hours and overasking...
+          </AccentPoint2>
         </Col>
       </Row>
   );
