@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import styled from "styled-components";
-import "./app.css";
+import "./text.css";
 import CouchIcon from "./CouchIcon.png";
 
 const Wrapper = styled.div`

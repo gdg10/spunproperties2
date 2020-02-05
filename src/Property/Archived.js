@@ -1,5 +1,5 @@
 import React from "react";
-import "../app.css";
+import "../text.css";
 import { AccentPoint, SpacerImage } from "../About";
 import { Row, Col, Card, Button } from "react-bootstrap";
 import { SpunProperties } from ".";

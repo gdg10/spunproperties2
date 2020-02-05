@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, ButtonToolbar, Button } from "react-bootstrap";
 import PropertyImages from "./PropertyImages";
 import styled from "styled-components";
-import "../app.css";
+import "../text.css";
 
 const Price = styled.h3`
   text-align: left;

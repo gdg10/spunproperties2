@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
-import "./app.css";
+import "./text.css";
 import { SocialIcon } from "react-social-icons";
 
 const Wrapper = styled.div`

@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Card, Button } from "react-bootstrap";
-import "../app.css";
+import "../text.css";
 import { AccentPoint, SpacerImage } from "../About";
 import { SpunProperties } from ".";
 import { Link } from "react-router-dom";
