@@ -9,7 +9,6 @@ import About from "./About";
 import Contact from "./Contact";
 import Active from "./Property/Active";
 import { Container, Row, Col } from "react-bootstrap";
-import "./app.css";
 import { SpunProperties } from "./Property";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
