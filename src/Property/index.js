@@ -28,7 +28,7 @@ const SpunProperties = [
     archived: false,
     featured: false,
     address: "805 Barnsdale Rd, Bethlehem, PA 18017",
-    price: "$250,000",
+    price: "$379,000",
     details: "4 bd | 3 ba | 2,314 sq. ft.",
     listingAgent: "Michael Volpone",
     listingAgentsPhone: "5702691930",
