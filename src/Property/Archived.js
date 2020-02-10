@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { Loading } from "./PropertyImages";
 import Fade from "react-bootstrap/Fade";
 
+const LOAD_THRES = SpunProperties.filter((p)=>{return (p.archived !== true)}).length;
+
 const renderCard = (
   curProp,
   loadCounter,
@@ -28,8 +30,8 @@ const renderCard = (
           borderRadius: "20px"
         }}
       >
-        {loadCounter < 1 && Loading}
-        <Fade in={loadCounter >= 1}>
+        {loadCounter < LOAD_THRES && Loading}
+        <Fade in={loadCounter >= LOAD_THRES}>
           <Card.Img
             variant="top"
             height='175px'

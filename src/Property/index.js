@@ -66,8 +66,8 @@ const SpunProperties = [
   },
   {
     route: "1660Bobalew",
-    active: true,
-    archived: false,
+    active: false,
+    archived: true,
     featured: false,
     address: "1660 Bobalew Trail Allentown, PA 18103",
     price: "$529,000",
