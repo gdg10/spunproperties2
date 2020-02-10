@@ -9,12 +9,12 @@ import img8 from "./8-min.jpg";
 import img9 from "./9-min.jpg";
 
 const barnsdaleImages = [
-  img1,
-  img2,
   img3,
+  img2,
   img4,
   img5,
   img6,
+  img1,
   img7,
   img7,
   img8,

@@ -72,7 +72,7 @@ const About = () => {
           <AccentPoint id="properties">Featured Home</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
           <AccentPoint2>
-            This Spunproperty sold in 24 hours and overasking...
+            A Spunproperty with a gorgeous kitchen...
           </AccentPoint2>
         </Col>
       </Row>
