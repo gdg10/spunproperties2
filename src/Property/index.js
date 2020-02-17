@@ -105,8 +105,8 @@ const SpunProperties = [
     address: "6719 Arbordeau Ln, Macungie, PA 18062",
     price: "$499,500",
     details: "4 bd | 2.5 ba |3,363 sqft",
-    listingAgent: "",
-    listingAgentsPhone: "",
+    listingAgent: "Derek",
+    listingAgentsPhone: "2673177778",
     description:
       "Welcome to desirable Beaumont at Brookside. This beauty is ready for its new owner. It has over 3300 sqft of living space with 4 bedrooms 2.5 baths. The first floor features a large cathedral ceiling family room that opens into a nice size kitchen which would be great for family get-togethers or for entertaining guests. This bright and airy open concept also let the dining room, living room and office/den connect and flow into the family room. Upstairs you will find a spacious master suite with a sitting area along with a master bath and a walk-in closet, three additional nice size bedrooms and a full bath. The full basement could be turned into a super man cave, family room, home gym or an inlaw suite. This home shows well and is ready for your personal touch to make it your own; also conveniently located near schools, parks, shops, restaurants and major highways.",
     cardImage: arbImages[0],
@@ -120,10 +120,10 @@ const SpunProperties = [
     address: "5015 E. Texas Rd, Macungie, PA 18062",
     price: "$549,900",
     details: "5 bd | 4 ba | 3, 678 sqft",
-    listingAgent: "",
-    listingAgentsPhone: "",
+    listingAgent: "Dale Wallace",
+    listingAgentsPhone: "6106571000",
     description:
-      "Welcome to desirable Beaumont at Brookside. This beauty is ready for its new owner. It has over 3300 sqft of living space with 4 bedrooms 2.5 baths. The first floor features a large cathedral ceiling family room that opens into a nice size kitchen which would be great for family get-togethers or for entertaining guests. This bright and airy open concept also let the dining room, living room and office/den connect and flow into the family room. Upstairs you will find a spacious master suite with a sitting area along with a master bath and a walk-in closet, three additional nice size bedrooms and a full bath. The full basement could be turned into a super man cave, family room, home gym or an inlaw suite. This home shows well and is ready for your personal touch to make it your own; also conveniently located near schools, parks, shops, restaurants and major highways.",
+      "Decorated Model Home for Sale ~ Brand-new, Elegant 3, 592 SF 5 Bedroom, 4 Bath Colonial in East Penn Schools. Chef~s Dream Open Concept Gourmet Kitchen with Oversized Island and Granite Countertops and a walkout Eating Area. Gorgeous stone fireplace in the family room adjoins kitchen. Exquisite tile work throughout the home. An inviting front porch for relaxation. Plenty of accent lighting throughout home. Beautiful 1st floor master with a luxurious en-suite and 4 more bedrooms (2nd floor Master also and 3 additional bedrooms. Possible multi-generational area with 1st floor bedroom suite.) Hardwood floors throughout first floor, staircase and upstairs hallway. Full basement with 2 egress windows. Oversized 2 car garage with an additional 7~8~ x 12' storage area. Convenient to all major shopping. This beautiful home will sell quickly. Grading, seeding and driveway to be completed within 30 days. 2nd Lot available to build your dream home.",
     cardImage: texasImages[0],
     imageGallery: texasImages
   }
