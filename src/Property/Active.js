@@ -44,7 +44,7 @@ const renderCard = (
         </Fade>
         <Card.Body>
           <Card.Title>{curProp.address}</Card.Title>
-          <Card.Text>{curProp.price + " | " + curProp.details}</Card.Text>
+          <Card.Text style={{ fontSize: '.9em'}}>{curProp.price + " | " + curProp.details}</Card.Text>
           <Link to={"/" + curProp.route}>
             {" "}
             <Button

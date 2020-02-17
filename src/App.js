@@ -76,7 +76,7 @@ const App = () => {
         <NavBar />
         <Container style={conSty}>
           <Switch>
-            <Route path={"/" + SpunProperties[0].route} key="1_uni">
+            <Route path={"/" + SpunProperties[0].route} key="0_uni">
               {backToActiveProps()}
               <Property
                 price={SpunProperties[0].price}
@@ -89,7 +89,7 @@ const App = () => {
               />
               <Active />
             </Route>
-            <Route path={"/" + SpunProperties[1].route} key="2_uni">
+            <Route path={"/" + SpunProperties[1].route} key="1_uni">
               {backToActiveProps()}
               <Property
                 price={SpunProperties[1].price}
@@ -151,6 +151,32 @@ const App = () => {
                 description={SpunProperties[5].description}
                 propImages={SpunProperties[5].imageGallery}
                 listingAgentsPhone={SpunProperties[5].listingAgentsPhone}
+              />
+              <Active />
+            </Route>
+            <Route path={"/" + SpunProperties[6].route} key="6_uni">
+              {backToActiveProps()}
+              <Property
+                price={SpunProperties[6].price}
+                details={SpunProperties[6].details}
+                address={SpunProperties[6].address}
+                listingAgent={SpunProperties[6].listingAgent}
+                description={SpunProperties[6].description}
+                propImages={SpunProperties[6].imageGallery}
+                listingAgentsPhone={SpunProperties[6].listingAgentsPhone}
+              />
+              <Active />
+            </Route>
+            <Route path={"/" + SpunProperties[7].route} key="7_uni">
+              {backToActiveProps()}
+              <Property
+                price={SpunProperties[7].price}
+                details={SpunProperties[7].details}
+                address={SpunProperties[7].address}
+                listingAgent={SpunProperties[7].listingAgent}
+                description={SpunProperties[7].description}
+                propImages={SpunProperties[7].imageGallery}
+                listingAgentsPhone={SpunProperties[7].listingAgentsPhone}
               />
               <Active />
             </Route>
