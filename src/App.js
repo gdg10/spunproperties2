@@ -13,7 +13,7 @@ import { SpunProperties } from "./Property";
 import ArchivedTable from "./Property/ArchivedTable";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Archived from "./Property/Archived";
+// import Archived from "./Property/Archived";
 
 const MasterWrapper = styled.div`
   background-color: white;

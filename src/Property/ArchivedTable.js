@@ -10,7 +10,9 @@ const renderRow = (curProp, i) => {
     <tr>
       <td>{i}</td>
       <td>
-        <Link style={{color: 'indigo'}}to={"/" + curProp.route}>{curProp.address} </Link>
+        <Link style={{ color: "indigo" }} to={"/" + curProp.route}>
+          {curProp.address}{" "}
+        </Link>
       </td>
       <td>{curProp.price}</td>
       <td>{curProp.listingAgent}</td>
