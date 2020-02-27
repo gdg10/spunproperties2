@@ -29,7 +29,7 @@ const sectionTitle = (
 
 const ArchivedTable = () => {
   const Arch = SpunProperties.filter(p => {
-    return p.archived !== true;
+    return p.archived === true;
   });
   return (
     <>
