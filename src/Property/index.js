@@ -5,8 +5,9 @@ import riverImages from "./river";
 import martinsImages from "./martins";
 import bobalewImgages from "./bobalew";
 import northImages from "./north";
-import arbImages from './arb';
-import texasImages from './texas';
+import arbImages from "./arb";
+import texasImages from "./texas";
+import pineImages from './pine';
 
 const SpunProperties = [
   {
@@ -34,7 +35,8 @@ const SpunProperties = [
     details: "4 bd | 3 ba | 2,314 sqft",
     listingAgent: "Michael Volpone",
     listingAgentsPhone: "5702691930",
-    description: "Completely renovated 4 bedroom home located in desirable area. New kitchen features quartz counter tops and all new appliances, All bathrooms are new, new flooring throughout, New heating system, central air and hot water heater. Corner lot in beautiful Bethlehem. Must see!",
+    description:
+      "Completely renovated 4 bedroom home located in desirable area. New kitchen features quartz counter tops and all new appliances, All bathrooms are new, new flooring throughout, New heating system, central air and hot water heater. Corner lot in beautiful Bethlehem. Must see!",
     cardImage: barnsdaleImages[1],
     imageGallery: barnsdaleImages
   },
@@ -78,7 +80,8 @@ const SpunProperties = [
     details: "4 bd | 2.5 ba | 5,764 sqft",
     listingAgent: "Eric Huber",
     listingAgentsPhone: "4843757592",
-    description: "SOUTH MOUNTAIN hideaway on 1.66 ac. This 3300+sf custom-built contemporary offers privacy galore & beautiful views of nature from every room. This slice of paradise wouldn't be complete without a wooden deck that spans the width of the home and runs at least 24 feet deep into the woods (enhanced by exterior lighting). Home is accented w/soaring ceilings, new skylights, flr-to-ceiling windows & new modern lighting. Freshly painted, natural cherry-stained trim, 6-panel solid wood doors, hrdwd flrs, marble & ceramic tile flrs, & new neutral carptng. Spac 1st flr master suite w/inviting, relaxing jacuzzi overlooking the tranquility of wildlife. 2nd bdrm/in-home office is found on this level.",
+    description:
+      "SOUTH MOUNTAIN hideaway on 1.66 ac. This 3300+sf custom-built contemporary offers privacy galore & beautiful views of nature from every room. This slice of paradise wouldn't be complete without a wooden deck that spans the width of the home and runs at least 24 feet deep into the woods (enhanced by exterior lighting). Home is accented w/soaring ceilings, new skylights, flr-to-ceiling windows & new modern lighting. Freshly painted, natural cherry-stained trim, 6-panel solid wood doors, hrdwd flrs, marble & ceramic tile flrs, & new neutral carptng. Spac 1st flr master suite w/inviting, relaxing jacuzzi overlooking the tranquility of wildlife. 2nd bdrm/in-home office is found on this level.",
     cardImage: bobalewImgages[0],
     imageGallery: bobalewImgages
   },
@@ -119,13 +122,28 @@ const SpunProperties = [
     featured: false,
     address: "5015 E. Texas Rd, Macungie, PA 18062",
     price: "$549,900",
-    details: "5 bd | 4 ba | 3, 678 sqft",
+    details: "5 bd | 4 ba | 3,678 sqft",
     listingAgent: "Dale Wallace",
     listingAgentsPhone: "6106571000",
     description:
       "Decorated Model Home for Sale ~ Brand-new, Elegant 3, 592 SF 5 Bedroom, 4 Bath Colonial in East Penn Schools. Chef~s Dream Open Concept Gourmet Kitchen with Oversized Island and Granite Countertops and a walkout Eating Area. Gorgeous stone fireplace in the family room adjoins kitchen. Exquisite tile work throughout the home. An inviting front porch for relaxation. Plenty of accent lighting throughout home. Beautiful 1st floor master with a luxurious en-suite and 4 more bedrooms (2nd floor Master also and 3 additional bedrooms. Possible multi-generational area with 1st floor bedroom suite.) Hardwood floors throughout first floor, staircase and upstairs hallway. Full basement with 2 egress windows. Oversized 2 car garage with an additional 7~8~ x 12' storage area. Convenient to all major shopping. This beautiful home will sell quickly. Grading, seeding and driveway to be completed within 30 days. 2nd Lot available to build your dream home.",
     cardImage: texasImages[0],
     imageGallery: texasImages
+  },
+  {
+    route: "1205Pine",
+    active: true,
+    archived: false,
+    featured: false,
+    address: "1205 Pine Grove Dr, Easton, PA 18045",
+    price: "$549,900",
+    details: "4 bd | 2 ba | 2,188 sqft",
+    listingAgent: "Janice Steckel",
+    listingAgentsPhone: "",
+    description:
+      "A spacious 4 Bedroom, 2.5 Bath Bi-level home, in a desirable, quiet Palmer Township location, situated on a nice-sized lot with mature trees and private fenced in backyard! Convenient location for commuting and close to shopping, schools, restaurants and entertainment. 1st level has eat-in-kitchen, dining room, large living room and 3 ample-sized bedrooms. Master has its own bathroom, and there is a 2nd full bathroom on this floor. Downstairs, enjoy the huge Family Room with Brick Wood-burning Fireplace, wonderful for family & friend gatherings and parties. Also on this level is a large 4th bedroom and a 1/2 bath, for possible extended family living. Off the family room is a 3 season room, which opens to a deck and private backyard. Side entry Large 2-car garage & utility shed. Lots of room for the growing family in this one! Schedule your showing today!",
+    cardImage: pineImages[0],
+    imageGallery: pineImages
   }
 ];
 
