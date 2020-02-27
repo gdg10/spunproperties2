@@ -7,7 +7,7 @@ import bobalewImgages from "./bobalew";
 import northImages from "./north";
 import arbImages from "./arb";
 import texasImages from "./texas";
-import pineImages from './pine';
+import pineImages from "./pine";
 
 const SpunProperties = [
   {
@@ -136,7 +136,7 @@ const SpunProperties = [
     archived: false,
     featured: true,
     address: "1205 Pine Grove Dr, Easton, PA 18045",
-    price: "$549,900",
+    price: "$329,500",
     details: "4 bd | 2 ba | 2,188 sqft",
     listingAgent: "Janice Steckel",
     listingAgentsPhone: "",
