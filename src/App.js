@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import Active from "./Property/Active";
 import { Container, Row, Col } from "react-bootstrap";
 import { SpunProperties } from "./Property";
+import ArchivedTable from "./Property/ArchivedTable";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Archived from "./Property/Archived";
@@ -52,7 +53,8 @@ const HomePage = () => {
       <About />
       {CreateFeaturedPropertyComponent(SpunProperties)}
       <Active />
-      <Archived />
+      <ArchivedTable />
+      {/* <Archived /> */}
       <Contact />
     </React.Fragment>
   );
