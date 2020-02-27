@@ -71,9 +71,9 @@ const About = () => {
         <Col lg={12} md={12} sm={12}>
           <AccentPoint id="properties">Featured Home</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
-          <AccentPoint2>
+          {/* <AccentPoint2>
             A Spunproperty with a gorgeous kitchen...
-          </AccentPoint2>
+          </AccentPoint2> */}
         </Col>
       </Row>
   );

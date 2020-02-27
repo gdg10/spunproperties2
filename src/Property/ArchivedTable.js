@@ -28,6 +28,9 @@ const sectionTitle = (
 );
 
 const ArchivedTable = () => {
+  const Arch = SpunProperties.filter(p => {
+    return p.archived !== true;
+  });
   return (
     <>
       {sectionTitle}
@@ -42,7 +45,7 @@ const ArchivedTable = () => {
             </tr>
           </thead>
           <tbody>
-            {SpunProperties.map((spunProp, i) => {
+            {Arch.map((spunProp, i) => {
               return renderRow(spunProp, i);
             })}
           </tbody>
