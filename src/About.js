@@ -15,7 +15,7 @@ export const InfoPoint = styled.p`
 export const AccentPoint = styled.h3`
   margin: 0px;
   text-align: center;
-  padding: 20px 0px 0px 0px;
+  padding: 50px 0px 0px 0px;
   color: indigo;
   font-family: "GeosansLight", sans-serif;
   font-weight: bold;

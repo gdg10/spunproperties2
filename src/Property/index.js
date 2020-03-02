@@ -8,6 +8,7 @@ import northImages from "./north";
 import arbImages from "./arb";
 import texasImages from "./texas";
 import pineImages from "./pine";
+import birchImages from './birch';
 
 const SpunProperties = [
   {
@@ -144,6 +145,21 @@ const SpunProperties = [
       "A spacious 4 Bedroom, 2.5 Bath Bi-level home, in a desirable, quiet Palmer Township location, situated on a nice-sized lot with mature trees and private fenced in backyard! Convenient location for commuting and close to shopping, schools, restaurants and entertainment. 1st level has eat-in-kitchen, dining room, large living room and 3 ample-sized bedrooms. Master has its own bathroom, and there is a 2nd full bathroom on this floor. Downstairs, enjoy the huge Family Room with Brick Wood-burning Fireplace, wonderful for family & friend gatherings and parties. Also on this level is a large 4th bedroom and a 1/2 bath, for possible extended family living. Off the family room is a 3 season room, which opens to a deck and private backyard. Side entry Large 2-car garage & utility shed. Lots of room for the growing family in this one! Schedule your showing today!",
     cardImage: pineImages[0],
     imageGallery: pineImages
+  },
+  {
+    route: "790Birch",
+    active: true,
+    archived: false,
+    featured: false,
+    address: "790 Birch Ave, Pen Argyl, PA 18072",
+    price: "$425,000",
+    details: "5 bd | 5 ba | 3,386 sqft",
+    listingAgent: "Michael Volpone",
+    listingAgentsPhone: "",
+    description:
+      "Remodeled Center Hall Colonial in Upscale neighborhood features spacious kitchen with Island, 42' cabinets, granite counters and new stainless appliances. 9' Ceilings throughout first floor. Floor to ceiling stone fireplace in Family room. Master Suite with 3 walk-in Closets and large bath with soaking tub. Spacious bedrooms all have walk-in closets. Lower level has lots of room for entertaining, with full wet bar and 2 Baths. Also has possibilities for extended living quarters with 5th bedroom. 2 walk outs lead to expansive multi level decking. Make your apt today!",
+    cardImage: birchImages[0],
+    imageGallery: birchImages
   }
 ];
 
