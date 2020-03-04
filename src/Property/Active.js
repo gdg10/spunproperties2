@@ -20,20 +20,20 @@ const renderCard = (curProp, loadCounter, setLoadCounter) => {
 
   return (
     <Col lg={4} md={6} sm={12}>
-      <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}>
-        <Card
-          style={{
-            width: "18rem",
-            display: "inline-block",
-            textAlign: "left",
-            marginBottom: "2rem",
-            boxShadow: "0px 3px 15px rgba(0,0,0,0.1)",
-            borderRadius: "20px"
-          }}
-        >
-          {loadCounter < LOAD_THRES && Loading}
-          <Fade in={loadCounter >= LOAD_THRES}>
-            <Link to={"/" + curProp.route}>
+      <Card
+        style={{
+          width: "18rem",
+          display: "inline-block",
+          textAlign: "left",
+          marginBottom: "2rem",
+          boxShadow: "0px 3px 15px rgba(0,0,0,0.1)",
+          borderRadius: "20px"
+        }}
+      >
+        {loadCounter < LOAD_THRES && Loading}
+        <Fade in={loadCounter >= LOAD_THRES}>
+          <Link to={"/" + curProp.route}>
+            <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}>
               <Card.Img
                 variant="top"
                 height="175px"
@@ -42,34 +42,32 @@ const renderCard = (curProp, loadCounter, setLoadCounter) => {
                   setLoadCounter(loadCounter + 1);
                 }}
               />
-            </Link>
-          </Fade>
-          <Card.Body>
-            <Card.Title>{curProp.address}</Card.Title>
-            <Card.Text style={{ fontSize: ".9em" }}>
-              {curProp.price + " | " + curProp.details}
-            </Card.Text>
-            <Link to={"/" + curProp.route}>
-              {" "}
-              <motion.div
-                whileHover={{ scale: 1.02 }}
+            </motion.div>
+          </Link>
+        </Fade>
+        <Card.Body>
+          <Card.Title>{curProp.address}</Card.Title>
+          <Card.Text style={{ fontSize: ".9em" }}>
+            {curProp.price + " | " + curProp.details}
+          </Card.Text>
+          <Link to={"/" + curProp.route}>
+            {" "}
+            <motion.div whileHover={{ scale: 1.02 }}>
+              <Button
+                variant="primary"
+                style={{
+                  borderRadius: "20px",
+                  backgroundColor: "indigo",
+                  borderColor: "indigo",
+                  boxShadow: "0px 3px 15px rgba(0,0,0,0.1)"
+                }}
               >
-                <Button
-                  variant="primary"
-                  style={{
-                    borderRadius: "20px",
-                    backgroundColor: "indigo",
-                    borderColor: "indigo",
-                    boxShadow: "0px 3px 15px rgba(0,0,0,0.1)"
-                  }}
-                >
-                  Learn More
-                </Button>
-              </motion.div>
-            </Link>
-          </Card.Body>
-        </Card>
-      </motion.div>
+                Learn More
+              </Button>
+            </motion.div>
+          </Link>
+        </Card.Body>
+      </Card>
     </Col>
   );
 };
