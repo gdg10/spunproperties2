@@ -8,7 +8,8 @@ import northImages from "./north";
 import arbImages from "./arb";
 import texasImages from "./texas";
 import pineImages from "./pine";
-import birchImages from './birch';
+import birchImages from "./birch";
+import pattenImages from "./patten";
 
 const SpunProperties = [
   {
@@ -58,8 +59,8 @@ const SpunProperties = [
   },
   {
     route: "641Martins",
-    active: true,
-    archived: false,
+    active: false,
+    archived: true,
     featured: false,
     address: "641 Martins Ln, Bethlehem, PA 18018",
     price: "$125,000",
@@ -160,6 +161,21 @@ const SpunProperties = [
       "Remodeled Center Hall Colonial in Upscale neighborhood features spacious kitchen with Island, 42' cabinets, granite counters and new stainless appliances. 9' Ceilings throughout first floor. Floor to ceiling stone fireplace in Family room. Master Suite with 3 walk-in Closets and large bath with soaking tub. Spacious bedrooms all have walk-in closets. Lower level has lots of room for entertaining, with full wet bar and 2 Baths. Also has possibilities for extended living quarters with 5th bedroom. 2 walk outs lead to expansive multi level decking. Make your apt today!",
     cardImage: birchImages[0],
     imageGallery: birchImages
+  },
+  {
+    route: "272Patten",
+    active: true,
+    archived: false,
+    featured: false,
+    address: "272 Patten Circle Albrightsville, Pa",
+    price: "$385,000",
+    details: "5 bd | 4.5 ba | 4,544 sqft",
+    listingAgent: "Jim Christman",
+    listingAgentsPhone: "",
+    description:
+      "A Gorgeous 4500 Square Foot, Custom Built, Executive Home on 8 private Acres!! This home is a 5 bedroom, 5.5 Bathroom includes 4 Master Suites with private bathrooms! A TRUE Chef's dream kitchen with burner gas range with 2 grills and dbl oven, center island, pantry and pull out shelving. Every room in the home is generously sized to entertain/enjoy with Family/Friends. The home is very efficient with 3 zoned, Radiant Heat Throughout and Brand New Solar Panels. Beautiful deck to enjoy that morning cup of coffee! Huge walk out basement is a blank canvas for a Home Gym or Theater. A 3 Car Detached Garage with a 2nd floor. This home is move in ready and very comfortable and solid home!! Minutes from Rtes. 209, 248, and turnpike.",
+    cardImage: pattenImages[10],
+    imageGallery: pattenImages
   }
 ];
 
