@@ -17,7 +17,7 @@ const SpunProperties = [
     active: true,
     archived: false,
     featured: false,
-    address: "272 Patten Circle Albrightsville, Pa",
+    address: "272 Patten Circle, Albrightsville, PA 18210",
     price: "$385,000",
     details: "5 bd | 4.5 ba | 4,544 sqft",
     listingAgent: "Jim Christman",
