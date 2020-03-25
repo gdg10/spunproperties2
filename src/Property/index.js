@@ -5,7 +5,6 @@ import riverImages from "./river";
 import martinsImages from "./martins";
 import bobalewImgages from "./bobalew";
 import northImages from "./north";
-import arbImages from "./arb";
 import texasImages from "./texas";
 import pineImages from "./pine";
 import birchImages from "./birch";
@@ -116,21 +115,6 @@ const SpunProperties = [
       "Beautiful Single Home in Parkland School District! This 4 Bedroom, 2 ½ Bath Colonial is located on a great corner lot. Huge sunken Living Room with fireplace open to Dining Room. Spacious eat-in kitchen has granite countertops and new stainless appliances. Family room/den has access to rear yard. Hardwood floors throughout! Master Bedroom suite has sitting area with a fireplace, walk-in closet and full bath. Three other large bedrooms and full bath complete the second floor. Basement is partially finished. Entire house is freshly painted, new Light fixtures and new faucets in kitchen and baths. Great location close to shopping center, restaurants and major highways. This is a must see!",
     cardImage: northImages[0],
     imageGallery: northImages
-  },
-  {
-    route: "6719Arb",
-    active: true,
-    archived: false,
-    featured: false,
-    address: "6719 Arbordeau Ln, Macungie, PA 18062",
-    price: "$499,500",
-    details: "4 bd | 2.5 ba |3,363 sqft",
-    listingAgent: "Derek",
-    listingAgentsPhone: "2673177778",
-    description:
-      "Welcome to desirable Beaumont at Brookside. This beauty is ready for its new owner. It has over 3300 sqft of living space with 4 bedrooms 2.5 baths. The first floor features a large cathedral ceiling family room that opens into a nice size kitchen which would be great for family get-togethers or for entertaining guests. This bright and airy open concept also let the dining room, living room and office/den connect and flow into the family room. Upstairs you will find a spacious master suite with a sitting area along with a master bath and a walk-in closet, three additional nice size bedrooms and a full bath. The full basement could be turned into a super man cave, family room, home gym or an inlaw suite. This home shows well and is ready for your personal touch to make it your own; also conveniently located near schools, parks, shops, restaurants and major highways.",
-    cardImage: arbImages[0],
-    imageGallery: arbImages
   },
   {
     route: "5015Texas",

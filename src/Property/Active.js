@@ -12,6 +12,7 @@ const LOAD_THRES = SpunProperties.filter(p => {
   return p.active !== true;
 }).length;
 // console.log(LOAD_THRES);
+// console.log(SpunProperties.length);
 
 const renderCard = (curProp, loadCounter, setLoadCounter) => {
   if (curProp.active === false) {
@@ -80,7 +81,7 @@ const sectionTitle = (
 );
 
 const Active = () => {
-  const [loadCounter, setLoadCounter] = React.useState(1);
+  const [loadCounter, setLoadCounter] = React.useState(2);
   return (
     <Row style={{ textAlign: "center" }}>
       {sectionTitle}
