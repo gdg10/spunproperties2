@@ -9,12 +9,13 @@ import Fade from "react-bootstrap/Fade";
 import { motion } from "framer-motion";
 
 const LOAD_THRES = SpunProperties.filter(p => {
-  return p.active !== true;
+  return p.active === true;
 }).length;
 // console.log(LOAD_THRES);
 // console.log(SpunProperties.length);
 
 const renderCard = (curProp, loadCounter, setLoadCounter) => {
+  // console.log(loadCounter);
   if (curProp.active === false) {
     return null;
   }

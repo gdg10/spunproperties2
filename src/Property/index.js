@@ -94,7 +94,7 @@ const SpunProperties = [
     address: "1660 Bobalew Trail Allentown, PA 18103",
     price: "$529,000",
     details: "4 bd | 2.5 ba | 5,764 sqft",
-    listingAgent: "Eric Huber",
+    listingAgent: "Beth Anne Cannon",
     listingAgentsPhone: "4843757592",
     description:
       "SOUTH MOUNTAIN hideaway on 1.66 ac. This 3300+sf custom-built contemporary offers privacy galore & beautiful views of nature from every room. This slice of paradise wouldn't be complete without a wooden deck that spans the width of the home and runs at least 24 feet deep into the woods (enhanced by exterior lighting). Home is accented w/soaring ceilings, new skylights, flr-to-ceiling windows & new modern lighting. Freshly painted, natural cherry-stained trim, 6-panel solid wood doors, hrdwd flrs, marble & ceramic tile flrs, & new neutral carptng. Spac 1st flr master suite w/inviting, relaxing jacuzzi overlooking the tranquility of wildlife. 2nd bdrm/in-home office is found on this level.",
@@ -118,8 +118,8 @@ const SpunProperties = [
   },
   {
     route: "5015Texas",
-    active: true,
-    archived: false,
+    active: false,
+    archived: true,
     featured: false,
     address: "5015 E. Texas Rd, Macungie, PA 18062",
     price: "$549,900",
