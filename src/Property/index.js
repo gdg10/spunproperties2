@@ -9,6 +9,7 @@ import texasImages from "./texas";
 import pineImages from "./pine";
 import birchImages from "./birch";
 import pattenImages from "./patten";
+import sycImages from "./syc";
 
 const SpunProperties = [
   {
@@ -150,7 +151,7 @@ const SpunProperties = [
     route: "790Birch",
     active: true,
     archived: false,
-    featured: true,
+    featured: false,
     address: "790 Birch Ave, Pen Argyl, PA 18072",
     price: "$425,000",
     details: "5 bd | 5 ba | 3,386 sqft",
@@ -160,6 +161,21 @@ const SpunProperties = [
       "Remodeled Center Hall Colonial in Upscale neighborhood features spacious kitchen with Island, 42' cabinets, granite counters and new stainless appliances. 9' Ceilings throughout first floor. Floor to ceiling stone fireplace in Family room. Master Suite with 3 walk-in Closets and large bath with soaking tub. Spacious bedrooms all have walk-in closets. Lower level has lots of room for entertaining, with full wet bar and 2 Baths. Also has possibilities for extended living quarters with 5th bedroom. 2 walk outs lead to expansive multi level decking. Make your apt today!",
     cardImage: birchImages[0],
     imageGallery: birchImages
+  },
+  {
+    route: "1824Syc",
+    active: true,
+    archived: false,
+    featured: true,
+    address: "1824 Sycamore Street, Bethlehem, PA 18017",
+    price: "$414,900",
+    details: "4 bd | 3 ba | 2,862 sqft",
+    listingAgent: "Meryl Cooper",
+    listingAgentsPhone: "",
+    description:
+      "Welcome to 1824 Sycamore Street. This elegant home in the premier neighborhood of Edgeboro and located on a beautiful street, lined with Sycamore trees. The classic 1925 all brick home has been meticulously maintained to the era as well as updated for modern convenience. On the first floor an updated kitchen is a cooks delight, with cherry cabinets ,SS appliances, granite, back splash and breakfast bar. You will enjoy entertaining your family and friends in your large DR. On those chilly nights unwind in the living room with wood a burning fireplace. There is also a FR that opens up to a large deck with hot tub and courtyard. On the 2nd floor find 3 nice sized bedrooms and updated gorgeous bath. Walk upstairs to the 3rd floor and find a 4th bedroom with ensuite bath. This home is only minutes away from historic downtown Bethlehem.",
+    cardImage: sycImages[0],
+    imageGallery: sycImages
   }
 ];
 
