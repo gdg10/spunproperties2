@@ -10,6 +10,8 @@ import pineImages from "./pine";
 import birchImages from "./birch";
 import pattenImages from "./patten";
 import sycImages from "./syc";
+import nevilleImages from './neville';
+import polkImages from './polk';
 
 const SpunProperties = [
   {
@@ -176,6 +178,36 @@ const SpunProperties = [
       "Welcome to 1824 Sycamore Street. This elegant home in the premier neighborhood of Edgeboro and located on a beautiful street, lined with Sycamore trees. The classic 1925 all brick home has been meticulously maintained to the era as well as updated for modern convenience. On the first floor an updated kitchen is a cooks delight, with cherry cabinets ,SS appliances, granite, back splash and breakfast bar. You will enjoy entertaining your family and friends in your large DR. On those chilly nights unwind in the living room with wood a burning fireplace. There is also a FR that opens up to a large deck with hot tub and courtyard. On the 2nd floor find 3 nice sized bedrooms and updated gorgeous bath. Walk upstairs to the 3rd floor and find a 4th bedroom with ensuite bath. This home is only minutes away from historic downtown Bethlehem.",
     cardImage: sycImages[0],
     imageGallery: sycImages
+  },
+  {
+    route: "3547nev",
+    active: true,
+    archived: false,
+    featured: false,
+    address: "3547 Neville Way, Upper Nazareth Twp, PA 18064",
+    price: "$269,900",
+    details: "3 bd | 2.5 ba | 1,923 sqft",
+    listingAgent: "Noelle Seaton",
+    listingAgentsPhone: "",
+    description:
+      "Gorgeous Upper Nazareth end unit townhouse adjacent to the community park! First floor boasts beautiful cherry hardwood floors and custom wood wainscoting in the dining room, crown molding, and new trim through out, granite with custom designed peninsula and counter overhang, stainless appliances with dual fuel Bosch stove/range, and new half bathroom with luxury finishes. Off of the kitchen is a 10 x 20 Trex deck (2018) that overlooks the park. The second floor has 3 nice sized bedrooms, 2 full baths, and laundry room. The master has been upgraded with crown molding, an extra large walk-in closet, walk in tile shower, and double vanity. The basement is fully finished with 3 large closets and a separate room that can be used as a office or bedroom. This home has been freshly painted, renovated, and greatly cared for! HOA covers landscaping, grass, and trash. Close to highways and shopping - it's a MUST SEE!",
+    cardImage: nevilleImages[0],
+    imageGallery: nevilleImages
+  },
+  {
+    route: "polk2354",
+    active: true,
+    archived: false,
+    featured: false,
+    address: "2354 Polk Valley Rd, Hellertown, PA 18055",
+    price: "$215,000",
+    details: "3 bd | 1 ba | 1,188 sqft",
+    listingAgent: "Scott Moyer",
+    listingAgentsPhone: "",
+    description:
+      "Cute bungalow ranch home in the desirable Saucon Valley School District. New roof, windows and exterior doors, siding and electrical panel. The interior is gutted and awaits your design ideas. Set up for 3 bedrooms and 1 bath, but two of the bedrooms could easily be converted to a master suite. After renovation, this would be a great starter home or perfect for retirees looking for one floor living. Home being sold as is.",
+    cardImage: polkImages[0],
+    imageGallery: polkImages
   }
 ];
 
