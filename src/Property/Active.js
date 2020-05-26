@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Button } from "react-bootstrap";
+import { Row, Col, Card, Button, Badge } from "react-bootstrap";
 import "../text.css";
 import { AccentPoint, SpacerImage } from "../About";
 import { SpunProperties } from ".";
@@ -8,7 +8,7 @@ import { Loading } from "./PropertyImages";
 import Fade from "react-bootstrap/Fade";
 import { motion } from "framer-motion";
 
-const LOAD_THRES = SpunProperties.filter(p => {
+const LOAD_THRES = SpunProperties.filter((p) => {
   return p.active === true;
 }).length;
 // console.log(LOAD_THRES);
@@ -29,7 +29,7 @@ const renderCard = (curProp, loadCounter, setLoadCounter) => {
           textAlign: "left",
           marginBottom: "2rem",
           boxShadow: "0px 3px 15px rgba(0,0,0,0.1)",
-          borderRadius: "20px"
+          borderRadius: "20px",
         }}
       >
         {loadCounter < LOAD_THRES && Loading}
@@ -43,14 +43,24 @@ const renderCard = (curProp, loadCounter, setLoadCounter) => {
                 onLoad={() => {
                   setLoadCounter(loadCounter + 1);
                 }}
-              />
+              ></Card.Img>
             </motion.div>
           </Link>
         </Fade>
         <Card.Body>
+          <Card.Text style={{ fontSize: ".9em" }}>
+            <Badge
+              style={{
+                visibility: curProp.underAgreement ? "visible" : "hidden",
+              }}
+              variant="success"
+            >
+              Under Agreement
+            </Badge>
+          </Card.Text>
           <Card.Title>{curProp.address}</Card.Title>
           <Card.Text style={{ fontSize: ".9em" }}>
-            {curProp.price + " | " + curProp.details}
+            {curProp.price} {curProp.details}
           </Card.Text>
           <Link to={"/" + curProp.route}>
             {" "}
@@ -61,7 +71,7 @@ const renderCard = (curProp, loadCounter, setLoadCounter) => {
                   borderRadius: "20px",
                   backgroundColor: "indigo",
                   borderColor: "indigo",
-                  boxShadow: "0px 3px 15px rgba(0,0,0,0.1)"
+                  boxShadow: "0px 3px 15px rgba(0,0,0,0.1)",
                 }}
               >
                 Learn More
@@ -86,7 +96,7 @@ const Active = () => {
   return (
     <Row style={{ textAlign: "center" }}>
       {sectionTitle}
-      {SpunProperties.map(spunProp => {
+      {SpunProperties.map((spunProp) => {
         return renderCard(spunProp, loadCounter, setLoadCounter);
       })}
     </Row>

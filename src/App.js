@@ -35,6 +35,7 @@ const CreatePropertyComponent = (sp) => {
   console.log("called");
   return (
     <Property
+    underAgreement={SpunProperties[0].underAgreement}
       price={sp.price}
       details={sp.details}
       address={sp.address}
@@ -87,6 +88,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[0].route} key="0_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[0].underAgreement}
                   price={SpunProperties[0].price}
                   details={SpunProperties[0].details}
                   address={SpunProperties[0].address}
@@ -100,6 +102,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[1].route} key="1_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[1].underAgreement}
                   price={SpunProperties[1].price}
                   details={SpunProperties[1].details}
                   address={SpunProperties[1].address}
@@ -113,6 +116,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[2].route} key="2_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[2].underAgreement}
                   price={SpunProperties[2].price}
                   details={SpunProperties[2].details}
                   address={SpunProperties[2].address}
@@ -126,6 +130,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[3].route} key="3_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[3].underAgreement}
                   price={SpunProperties[3].price}
                   details={SpunProperties[3].details}
                   address={SpunProperties[3].address}
@@ -139,6 +144,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[4].route} key="4_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[4].underAgreement}
                   price={SpunProperties[4].price}
                   details={SpunProperties[4].details}
                   address={SpunProperties[4].address}
@@ -152,6 +158,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[5].route} key="5_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[5].underAgreement}
                   price={SpunProperties[5].price}
                   details={SpunProperties[5].details}
                   address={SpunProperties[5].address}
@@ -165,6 +172,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[6].route} key="6_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[6].underAgreement}
                   price={SpunProperties[6].price}
                   details={SpunProperties[6].details}
                   address={SpunProperties[6].address}
@@ -178,6 +186,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[7].route} key="7_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[7].underAgreement}
                   price={SpunProperties[7].price}
                   details={SpunProperties[7].details}
                   address={SpunProperties[7].address}
@@ -191,6 +200,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[8].route} key="8_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[8].underAgreement}
                   price={SpunProperties[8].price}
                   details={SpunProperties[8].details}
                   address={SpunProperties[8].address}
@@ -204,6 +214,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[9].route} key="9_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[9].underAgreement}
                   price={SpunProperties[9].price}
                   details={SpunProperties[9].details}
                   address={SpunProperties[9].address}
@@ -217,6 +228,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[10].route} key="10_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[10].underAgreement}
                   price={SpunProperties[10].price}
                   details={SpunProperties[10].details}
                   address={SpunProperties[10].address}
@@ -230,6 +242,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[11].route} key="11_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[11].underAgreement}
                   price={SpunProperties[11].price}
                   details={SpunProperties[11].details}
                   address={SpunProperties[11].address}
@@ -243,6 +256,7 @@ const App = () => {
               <Route path={"/" + SpunProperties[12].route} key="12_uni">
                 {backToActiveProps()}
                 <Property
+                underAgreement={SpunProperties[12].underAgreement}
                   price={SpunProperties[12].price}
                   details={SpunProperties[12].details}
                   address={SpunProperties[12].address}
