@@ -221,6 +221,32 @@ const App = () => {
               />
               <Active />
             </Route>
+            <Route path={"/" + SpunProperties[11].route} key="11_uni">
+              {backToActiveProps()}
+              <Property
+                price={SpunProperties[11].price}
+                details={SpunProperties[11].details}
+                address={SpunProperties[11].address}
+                listingAgent={SpunProperties[11].listingAgent}
+                description={SpunProperties[11].description}
+                propImages={SpunProperties[11].imageGallery}
+                listingAgentsPhone={SpunProperties[11].listingAgentsPhone}
+              />
+              <Active />
+            </Route>
+            <Route path={"/" + SpunProperties[12].route} key="12_uni">
+              {backToActiveProps()}
+              <Property
+                price={SpunProperties[12].price}
+                details={SpunProperties[12].details}
+                address={SpunProperties[12].address}
+                listingAgent={SpunProperties[12].listingAgent}
+                description={SpunProperties[12].description}
+                propImages={SpunProperties[12].imageGallery}
+                listingAgentsPhone={SpunProperties[12].listingAgentsPhone}
+              />
+              <Active />
+            </Route>
             <Route path="/" key="0_uni">
               <HomePage />
             </Route>
