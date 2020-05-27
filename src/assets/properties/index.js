@@ -1,4 +1,4 @@
-import Property from "./Property";
+import Property from "../../components/Property";
 import bushkillImages from "./bushkill";
 import barnsdaleImages from "./barnsdale";
 import riverImages from "./river";

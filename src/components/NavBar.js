@@ -1,8 +1,8 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import styled from "styled-components";
-import "./text.css";
-import CouchIcon from "./CouchIcon.png";
+import "./../text.css"
+import CouchIcon from "./../assets/CouchIcon.png";
 
 const Wrapper = styled.div`
   font-family: "GeosansLight", sans-serif;

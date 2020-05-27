@@ -1,8 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Button, Badge } from "react-bootstrap";
 import "../text.css";
-import { AccentPoint, SpacerImage } from "../About";
-import { SpunProperties } from ".";
+import { AccentPoint, SpacerImage } from "./About";
+import { SpunProperties } from "../assets/properties";
 import { Link } from "react-router-dom";
 import { Loading } from "./PropertyImages";
 import Fade from "react-bootstrap/Fade";

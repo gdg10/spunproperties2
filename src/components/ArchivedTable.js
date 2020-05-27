@@ -1,8 +1,8 @@
 import React from "react";
 import "../text.css";
-import { AccentPoint, SpacerImage } from "../About";
+import { AccentPoint, SpacerImage } from "./About";
 import { Row, Col, Table } from "react-bootstrap";
-import { SpunProperties } from ".";
+import { SpunProperties } from "../assets/properties";
 import { Link } from "react-router-dom";
 
 const renderRow = (curProp, i) => {

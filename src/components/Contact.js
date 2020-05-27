@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import "./text.css";
+import "./../text.css";
 import { AccentPoint, SpacerImage } from "./About";
 import { SocialIcon } from "react-social-icons";
 

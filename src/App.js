@@ -1,16 +1,17 @@
 import React, { Suspense } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
-import { Property } from "./Property";
-import Hero from "./Hero";
-import About from "./About";
-import Contact from "./Contact";
-import Active from "./Property/Active";
+import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
+import { Property } from "./assets/properties";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Active from "./components/Active";
 import { Container, Row, Col } from "react-bootstrap";
-import { SpunProperties } from "./Property";
-import ArchivedTable from "./Property/ArchivedTable";
+import { SpunProperties } from "./assets/properties";
+import ArchivedTable from "./components/ArchivedTable";
+import CovidBanner from "./components/CovidBanner";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import Archived from "./Property/Archived";
@@ -88,6 +89,7 @@ const App = () => {
   return (
     <Router>
       <MasterWrapper>
+        <CovidBanner />
         <NavBar />
         <Container style={conSty}>
           <Suspense fallback={<div>Loading...</div>}>

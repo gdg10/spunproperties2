@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import styled from "styled-components";
-import "./text.css";
+import "./../text.css";
 
 export const InfoPoint = styled.p`
   margin: 0% 8% 0% 8%;

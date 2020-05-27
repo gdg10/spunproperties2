@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import heroImg from "./SpunPropertiesHeader.jpg";
+import heroImg from "./../assets/SpunPropertiesHeader.jpg";
 import styled from "styled-components";
 import Fade from "react-bootstrap/Fade";
 
