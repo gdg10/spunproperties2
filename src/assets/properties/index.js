@@ -12,6 +12,8 @@ import pattenImages from "./patten";
 import sycImages from "./syc";
 import nevilleImages from './neville';
 import polkImages from './polk';
+import countryClubImages from './countryclub';
+import lockhavenImages from './lockhaven';
 
 const SpunProperties = [
   {
@@ -221,6 +223,38 @@ const SpunProperties = [
       "Cute bungalow ranch home in the desirable Saucon Valley School District. New roof, windows and exterior doors, siding and electrical panel. The interior is gutted and awaits your design ideas. Set up for 3 bedrooms and 1 bath, but two of the bedrooms could easily be converted to a master suite. After renovation, this would be a great starter home or perfect for retirees looking for one floor living. Home being sold as is.",
     cardImage: polkImages[0],
     imageGallery: polkImages
+  },
+  {
+    route: "country459",
+    active: true,
+    archived: false,
+    featured: false,
+    underAgreement: false,
+    address: "459 Country Club Rd, Nazareth, PA 18045",
+    price: "$519,000",
+    details: "4 bd | 3.5 ba | 3,710 sqft",
+    listingAgent: "Jennifer Brehm",
+    listingAgentsPhone: "",
+    description:
+      "Perfect for entertaining, those big family gatherings or just to catchup on some reading. Head upstairs and you’ll find 3 spacious bedrooms, full bathroom and the in law suite. Large primary suite with hardwood floors and walk in closet.",
+    cardImage: countryClubImages[0],
+    imageGallery: countryClubImages
+  },
+  {
+    route: "lock7313",
+    active: true,
+    archived: false,
+    featured: false,
+    underAgreement: false,
+    address: "7313 Lockhaven St, Allentown, PA 18106",
+    price: "$549,000",
+    details: "6 bd | 3.5 ba | 2,944 sqft",
+    listingAgent: "Trish Husted",
+    listingAgentsPhone: "",
+    description:
+      "Gorgeous home with an over sized backyard bordering a park, providing panoramic views. A walkout to the deck, powder room & a mud rm/laundry rm complete the first floor. Up the lovely staircase you will find the primary suite w/ 2 walk in closets, full bath and an optional den or office attached. There are 4-5 spacious bedrooms along w/full bath w/double sinks.",
+    cardImage: lockhavenImages[0],
+    imageGallery: lockhavenImages
   }
 ];
 
