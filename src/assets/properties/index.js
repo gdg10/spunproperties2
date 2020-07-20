@@ -14,6 +14,7 @@ import nevilleImages from './neville';
 import polkImages from './polk';
 import countryClubImages from './countryclub';
 import lockhavenImages from './lockhaven';
+import hemlockImages from './hemlock';
 
 const SpunProperties = [
   {
@@ -244,7 +245,7 @@ const SpunProperties = [
     route: "lock7313",
     active: true,
     archived: false,
-    featured: true,
+    featured: false,
     underAgreement: false,
     address: "7313 Lockhaven St, Allentown, PA 18106",
     price: "$549,000",
@@ -255,7 +256,24 @@ const SpunProperties = [
       "Gorgeous home with an over sized backyard bordering a park, providing panoramic views. A walkout to the deck, powder room & a mud rm/laundry rm complete the first floor. Up the lovely staircase you will find the primary suite w/ 2 walk in closets, full bath and an optional den or office attached. There are 4-5 spacious bedrooms along w/full bath w/double sinks.",
     cardImage: lockhavenImages[0],
     imageGallery: lockhavenImages
-  }
+  },
+  {
+    route: "hemlock3027",
+    active: true,
+    archived: false,
+    featured: true,
+    underAgreement: false,
+    address: "3027 Hemlock Rd, Stroudsburg, PA 18360",
+    price: "$494,900",
+    details: "4 bd | 3 ba | 3,488 sqft",
+    listingAgent: "Michael Volpone",
+    listingAgentsPhone: "",
+    description:
+      "Completely Renovated,This 3 sided brick Colonial Is all new throughout. Grand open foyer features custom curved staircase, New open concept kitchen with Huge custom Island and New SS Appliances All new bathrooms. Spacious master suite with his and her walk in closets. All new flooring throughout, New 6 Zone propane furnace. Close to route 80 and shopping.",
+    cardImage: hemlockImages[0],
+    imageGallery: hemlockImages
+  },
+
 ];
 
 export { Property };
