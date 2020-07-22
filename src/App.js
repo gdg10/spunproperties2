@@ -303,6 +303,20 @@ const App = () => {
                 />
                 <Active />
               </Route>
+              <Route path={"/" + SpunProperties[15].route} key="15_uni">
+                {backToActiveProps()}
+                <Property
+                  underAgreement={SpunProperties[15].underAgreement}
+                  price={SpunProperties[15].price}
+                  details={SpunProperties[15].details}
+                  address={SpunProperties[15].address}
+                  listingAgent={SpunProperties[15].listingAgent}
+                  description={SpunProperties[15].description}
+                  propImages={SpunProperties[15].imageGallery}
+                  listingAgentsPhone={SpunProperties[15].listingAgentsPhone}
+                />
+                <Active />
+              </Route>
               <Route path="/" key="0_uni">
                 <HomePage />
               </Route>
