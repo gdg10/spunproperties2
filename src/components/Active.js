@@ -21,7 +21,7 @@ const renderCard = (curProp, loadCounter, setLoadCounter) => {
   }
 
   return (
-    <Col lg={4} md={6} sm={12}>
+    <Col lg={4} md={6} sm={12} key={curProp.route + curProp.price}>
       <Card
         style={{
           width: "18rem",

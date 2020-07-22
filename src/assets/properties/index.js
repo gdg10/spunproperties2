@@ -1,7 +1,6 @@
 import Property from "../../components/Property";
 import bushkillImages from "./bushkill";
 import barnsdaleImages from "./barnsdale";
-import riverImages from "./river";
 import martinsImages from "./martins";
 import bobalewImgages from "./bobalew";
 import northImages from "./north";
@@ -64,22 +63,6 @@ const SpunProperties = [
       "Completely renovated 4 bedroom home located in desirable area. New kitchen features quartz counter tops and all new appliances, All bathrooms are new, new flooring throughout, New heating system, central air and hot water heater. Corner lot in beautiful Bethlehem. Must see!",
     cardImage: barnsdaleImages[1],
     imageGallery: barnsdaleImages
-  },
-  {
-    route: "3480River",
-    active: true,
-    archived: false,
-    featured: false,
-    underAgreement: false,
-    address: "3480 River Rd, Mount Bethel, PA 18343",
-    price: "$429,900",
-    details: "3 bd | 2 ba | 1,200 sqft",
-    listingAgent: "Alexis Geleta-Oakley",
-    listingAgentsPhone: "610428-2952",
-    description:
-      "Living is easy along the river with all this home has to offer! You can enjoy an open floor plan with sun filled rooms, remarkable views of the Delaware River, and rights to use the boat launch. Tastefully done, this home offers a wall of Anderson thermopane windowsand doors, leading out to a 50' wrap around deck. A warm and inviting interior boasts beautiful vaulted cedar ceilings, a custom kitchen, hardwood floors, plus a 3 seasons room. The master bedroom has a full bath and sliding doors to the deck. Two additional bedrooms, a modern bath, and loft space can be perfect for guests. The decorative lattice slides open to a 2 car garage and entrance to the basement. Included is 146' river lot, geo thermal heat, and back up generator. Convenient to RT 80. Flood ins. not required.",
-    cardImage: riverImages[10],
-    imageGallery: riverImages
   },
   {
     route: "641Martins",
@@ -246,7 +229,7 @@ const SpunProperties = [
     active: true,
     archived: false,
     featured: false,
-    underAgreement: false,
+    underAgreement: true,
     address: "7313 Lockhaven St, Allentown, PA 18106",
     price: "$549,000",
     details: "6 bd | 3.5 ba | 2,944 sqft",

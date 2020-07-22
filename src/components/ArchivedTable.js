@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const renderRow = (curProp, i) => {
   return (
-    <tr>
+    <tr key={i+curProp.address}>
       <td>{i + 1}</td>
       <td>
         <Link style={{ color: "indigo" }} to={"/" + curProp.route}>
