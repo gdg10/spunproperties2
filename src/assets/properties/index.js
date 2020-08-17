@@ -15,8 +15,25 @@ import countryClubImages from "./countryclub";
 import lockhavenImages from "./lockhaven";
 import hemlockImages from "./hemlock";
 import northamptonImages from "./northampton";
+import woodlawnImages from "./woodlawn";
 
 const SpunProperties = [
+  {
+    route: "6825woodlawn",
+    active: true,
+    archived: false,
+    featured: true,
+    underAgreement: true,
+    address: "6825 Woodlawn Dr, Zionsville, PA 18092",
+    price: "$785,000",
+    details: "5 bd | 4 ba | 3,604 sqft",
+    listingAgent: "Nancy Slick",
+    listingAgentsPhone: "6107044510",
+    description:
+      "1879 stone and stucco farmhouse is a tranquil oasis within the East Penn SD. Home and 3 outbuildings sit on 18+ acres and back to woods, a meandering stream and farmland w/12 tillable acres. Property well-suited for a gentleman~s farm or to raise horses. An assortment of gleaming hardwoods (Australian cypress, oak and maple) and tile adorn the floors. Deep-silled windows, exposed stone walls & wood beams exude the feel of times gone past. The original summer kitchen w/ bake oven creates a charming entrance & has steps to bdrm/full BA above. A sunroom boasts radiant floor heat, skylights & copper roof. Completing 1st floor are kitchen, DR, LR, FR & half bath. The 2nd floor features MA bdrm & bath & lg walk-in closet; 2 addt~l Bdrms; a full BA; laundry; and a bonus rm/office w/stairs to 5th bdrm. Outbuildings include an oversized 4 car garage w/finished rec room/guest qrtrs & full bath above, a pole barn and bank barn w/commercial refrigeration. ACT 319P allows reduced taxes! Min to Emmaus center/ I-78. Home listed below appraised value!",
+    cardImage: woodlawnImages[0],
+    imageGallery: woodlawnImages,
+  },
   {
     route: "272Patten",
     active: false,
@@ -214,7 +231,7 @@ const SpunProperties = [
     active: true,
     archived: false,
     featured: false,
-    underAgreement: false,
+    underAgreement: true,
     address: "459 Country Club Rd, Nazareth, PA 18045",
     price: "$519,000",
     details: "4 bd | 3.5 ba | 3,710 sqft",
@@ -245,8 +262,8 @@ const SpunProperties = [
     route: "hemlock3027",
     active: true,
     archived: false,
-    featured: true,
-    underAgreement: false,
+    featured: false,
+    underAgreement: true,
     address: "3027 Hemlock Rd, Stroudsburg, PA 18360",
     price: "$494,900",
     details: "4 bd | 3 ba | 3,488 sqft",
@@ -262,7 +279,7 @@ const SpunProperties = [
     active: true,
     archived: false,
     featured: false,
-    underAgreement: false,
+    underAgreement: true,
     address: "601 Northampton St, Easton, PA 18042",
     price: "$1,300",
     details: "2 bd | 1 ba | 700 sqft",
