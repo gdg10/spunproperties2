@@ -22,7 +22,7 @@ const renderRow = (curProp, i) => {
 
 const sectionTitle = (
   <Col lg={12} md={12} sm={12}>
-    <AccentPoint id="archivedTable">Archived Listings</AccentPoint>
+    <AccentPoint id="archived">Archived Listings</AccentPoint>
     <SpacerImage>■■■</SpacerImage>
   </Col>
 );
