@@ -16,8 +16,25 @@ import lockhavenImages from "./lockhaven";
 import hemlockImages from "./hemlock";
 import northamptonImages from "./northampton";
 import woodlawnImages from "./woodlawn";
+import applewoodImages from "./applewood";
 
 const SpunProperties = [
+  {
+    route: "135apple",
+    active: true,
+    archived: false,
+    featured: false,
+    underAgreement: true,
+    address: "135 Applewood Dr, Easton, PA 18045",
+    price: "$186,600",
+    details: "3 bd | 2.5 ba | 1,944 sqft",
+    listingAgent: "Janice Steckel",
+    listingAgentsPhone: "",
+    description:
+      "Just imagine living your life here, in one gorgeous space after another! Renovated completely inside and out with quality workmanship, plus high end materials, and all with a great eye for design! Absolutely stunning, open concept living. Every single detail was considered from the fixtures to the trim. Gorgeous designer kitchen w/XL island and includes appliances. New baths. Smartly designed mud room and laundry area. HW flooring throughout- 1st and 2nd floors! Spacious new covered deck. Nice yard. New roof, landscaping, paver walkway, windows, super efficient HVAC. Luxury and design, plus updated systems - there is just nothing else like this home! Here's your chance for a practically brand new home top to bottom, in a lovely, established, and tree lined streets neighborhood!",
+    cardImage: applewoodImages[0],
+    imageGallery: applewoodImages,
+  },
   {
     route: "6825woodlawn",
     active: true,
