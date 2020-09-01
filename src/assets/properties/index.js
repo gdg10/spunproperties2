@@ -29,8 +29,8 @@ const SpunProperties = [
     address: "4764 PA Route 309, North Whitehall Township, PA 18078",
     price: "$214,900",
     details: "3 bd | 1.5 ba | 1,336 sqft",
-    listingAgent: "",
-    listingAgentsPhone: "",
+    listingAgent: "Gabriel DeFalcis",
+    listingAgentsPhone: "484-725-0029",
     description:
       "VALUE IN PARKLAND SCHOOL DISTRICT! You will be hard-pressed to find a similarly finished, home in Parkland at this price ! This detached, red brick Colonial has been professionally renovated with care ! You can Move in with peace of mind knowing the windows and roof are newer, and the water heater is brand new! Enjoy A beautiful Kitchen with brand new stainless steel-appliances, and new granite counter tops and cabinets! Stay cool in the summer and warm in the winter with the multi-function, super-efficient, propane HVAC system with a brand new Propane tank! This wonderful home is rounded off a newer 200 amp electrical service box, and an oversized 2 car garage with attached workshop and even more off street parking!",
     cardImage: routeImages[0],
