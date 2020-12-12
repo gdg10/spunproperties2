@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 import "./../text.css";
 import { SocialIcon } from "react-social-icons";
+import Background from "./../assets/new_year_background.png";
 
 const Wrapper = styled.div`
   margin-top: 20px;
@@ -11,12 +12,11 @@ const Wrapper = styled.div`
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-family: "GeosansLight", sans-serif;
-  color: lightgrey;
-  font-weight: lighter;
+  font-size: 18px;
+  color: black;
   line-hieght: 60px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 1);
+  background: url(${Background});
 `;
 
 const constHeight = "50px";
@@ -31,7 +31,7 @@ const Footer = () => {
         <Row>
           <Col style={{ verticalAlign: "middle", textAlign: "left" }}>
             <a
-              style={{ color: "white" }}
+              style={{ color: "grey" }}
               href="https://www.spundesign.com"
               // eslint-disable-next-line react/jsx-no-target-blank
               target="_blank"
@@ -42,7 +42,7 @@ const Footer = () => {
           <Col style={{ verticalAlign: "middle", textAlign: "right" }}>
             Site by{" "}
             <a
-              style={{ color: "white" }}
+              style={{ color: "grey" }}
               href="https://www.linkedin.com/in/garrett-grube?trk=people-guest_profile-result-card_result-card_full-click"
               // eslint-disable-next-line react/jsx-no-target-blank
               target="_blank"
