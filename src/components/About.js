@@ -12,7 +12,7 @@ export const InfoPoint = styled.p`
   font-size: 1.25em;
 `;
 
-export const AccentPoint = styled.h3`
+export const AccentPoint = styled.h2`
   margin: 0px;
   text-align: center;
   padding: 50px 0px 0px 0px;
@@ -22,7 +22,7 @@ export const AccentPoint = styled.h3`
 `;
 
 
-export const AccentPoint2 = styled.h3`
+export const AccentPoint2 = styled.h2`
   margin: 0px;
   text-align: center;
   padding: 0px 0px 25px 0px;
