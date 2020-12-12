@@ -68,13 +68,13 @@ const About = () => {
             will be beautiful inside.
           </InfoPoint>
         </Col>
-        <Col lg={12} md={12} sm={12}>
+        {/* <Col lg={12} md={12} sm={12}>
           <AccentPoint id="properties">Featured Home</AccentPoint>
           <SpacerImage>■■■</SpacerImage>
-          {/* <AccentPoint2>
+          <AccentPoint2>
             A Spunproperty with a gorgeous kitchen...
-          </AccentPoint2> */}
-        </Col>
+          </AccentPoint2>
+        </Col> */}
       </Row>
   );
 };

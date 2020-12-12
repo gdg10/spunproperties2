@@ -42,30 +42,26 @@ const Property = (props) => {
         </Col>
         <Col sm={12} xs={12} md={12} lg={3}>
           <Price>
-          <Badge
-            style={{
-              display: props.underAgreement ? "" : "none",
-            }}
-            variant="success"
-          >
-            Under Agreement
-          </Badge>
+            <Badge
+              style={{
+                display: props.underAgreement ? "" : "none",
+              }}
+              variant="success"
+            >
+              Under Agreement
+            </Badge>
           </Price>
           <Price>{props.price}</Price>
           <Details>{props.details}</Details>
           <Details>Listing Agent: {props.listingAgent}</Details>
-          <Details2>
-            {props.address}
-          </Details2>
+          <Details2>{props.address}</Details2>
           <a href={"tel:" + props.listingAgentsPhone}>
             <ButtonToolbar>
               <Button
                 block={true}
-                variant="primary"
+                size="lg"
                 style={{
                   borderRadius: "20px",
-                  backgroundColor: "indigo",
-                  boxShadow: "0px 3px 15px rgba(0,0,0,0.1)",
                 }}
               >
                 Call Agent

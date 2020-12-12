@@ -52,7 +52,7 @@ const HomePage = () => {
     <React.Fragment>
       <Hero />
       <About />
-      {CreateFeaturedPropertyComponent(SpunProperties)}
+      {/* {CreateFeaturedPropertyComponent(SpunProperties)} */}
       <Active />
       <ArchivedTable />
       {/* <Archived /> */}

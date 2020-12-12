@@ -91,17 +91,40 @@ const sectionTitle = (
 const Active = () => {
   // const [loadCounter, setLoadCounter] = React.useState(2);
   return (
-    <Row style={{ textAlign: "center" }}>
-      {sectionTitle}
-      <p style={{ margin: "auto" }}>
-        See{" "}
-        <a href="https://www.instagram.com/spunproperties/" target="_blank" rel="noopener noreferrer">our Instagram</a>{" "}
-        for our newest properties!
-      </p>
-      {/* {SpunProperties.map((spunProp) => {
+    <>
+      <Row style={{ textAlign: "center" }}>
+        {sectionTitle}
+        <p style={{ margin: "auto" }}>
+          See{" "}
+          <a
+            href="https://www.instagram.com/spunproperties/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            our Instagram
+          </a>{" "}
+          for our newest properties!
+        </p>
+        {/* {SpunProperties.map((spunProp) => {
         return renderCard(spunProp, loadCounter, setLoadCounter);
       })} */}
-    </Row>
+      </Row>
+      <Row>
+        <Button
+          color="indigo"
+          size="lg"
+          style={{
+            borderRadius: "20px",
+            margin: "24px auto",
+          }}
+          onClick={() => {
+            window.open("https://www.instagram.com/spunproperties/");
+          }}
+        >
+          Go to Instagram
+        </Button>
+      </Row>
+    </>
   );
 };
 
