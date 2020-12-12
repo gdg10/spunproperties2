@@ -17,10 +17,11 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import Archived from "./Property/Archived";
 
 const MasterWrapper = styled.div`
+  background-color: white;
 `;
 
 const conSty = {
-  backgroundColor: "white"
+  backgroundColor: "white",
 };
 
 const CreateFeaturedPropertyComponent = (sps) => {
